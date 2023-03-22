@@ -2,6 +2,6 @@
 
 const num = +prompt('Введите число:');
 
-for (i = num; i > 0; i--) {
+for (let i = num; i > 0; i--) {
 	console.log(i);
 }
